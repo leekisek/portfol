@@ -36,6 +36,7 @@ function App() {
       <Route path="/*" element={<NotFound />}></Route>
       <Route path="/login" element={<Login logs={logs} setLogs={setLogs}/>}></Route>
       <Route path="/join" element={<SingUp />}></Route>
+      {/* test */}
     </Routes>
   </BrowserRouter>
   );
