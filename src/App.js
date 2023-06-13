@@ -30,7 +30,7 @@ function App() {
    <Header logs={logs} setLogs={setLogs}/>
     <Routes>
       <Route path="/" element={<Home />}></Route>
-      <Route path="/list" element={<List />}></Route>
+      <Route path="portfol/list" element={<List />}></Route>
       {/* <Route path="" element={}></Route> */}
       {/* <Route path="" element={}></Route> */}
       <Route path="/*" element={<NotFound />}></Route>
